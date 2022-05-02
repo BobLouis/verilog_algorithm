@@ -1,4 +1,4 @@
-module badd16(
+module BK_adder(
 input [15:0] a,
 input [15:0] b,
 output [16:0] sum
@@ -130,56 +130,46 @@ assign g[15] = a[15] & b[15];
 assign cg1[15] = (p[15] & g[14]) | g[15];
 assign cp1[15] = p[15] & p[14];
 
-assign cp62 = cp1[2] & cp1[1];
-assign cg62 = (cp1[2] & cg1[1]) | cg1[2];
+
 assign cg23 = (cp1[3] & cg1[1]) | cg1[3];
 assign cp23 = cp1[3] & cp1[1];
-
 assign cg27 = (cp1[7] & cg1[5]) | cg1[7];
 assign cp27 = cp1[7] & cp1[5];
-
-
-assign cg64 = (cp1[4] & cg23) | cg1[4];
-assign cp64 = cp1[4] & cp23;
-
-assign cg55 = (cp1[5] & cg23) | cg1[5];
-assign cp55 = cp1[5] & cp23;
-
-assign cg66 = (cp1[6] & cg55) | cg1[6];
-assign cp66 = cp1[6] & cp55;
-assign cg37 = (cp27 & cg23) | cg27;
-assign cp37 = cp27 & cp23;
-
 assign cg211 = (cp1[11] & cg1[9]) | cg1[11];
 assign cp211 = cp1[11] & cp1[9];
-
 assign cg215 = (cp1[15] & cg1[11]) | cg1[15];
 assign cp215 = cp1[15] & cp1[11];
 
+
+assign cg37 = (cp27 & cg23) | cg27;
+assign cp37 = cp27 & cp23;
 assign cg315 = (cp215 & cg211) | cg215;
 assign cp315 = cp215 & cp211;
 
 assign cg411 = (cp211 & cg37) | cg211;
 assign cp411 = cp211 & cp37;
-
 assign cg415 = (cp315 & cg37) | cg315;
 assign cp415 = cp315 & cp37;
 
+assign cg55 = (cp1[5] & cg23) | cg1[5];
+assign cp55 = cp1[5] & cp23;
 assign cg59 = (cp1[9] & cg37) | cg1[9];
 assign cp59 = cp1[9] & cp37;
-
 assign cg513 = (cp1[13] & cg411) | cg1[13];
 assign cp513 = cp1[13] & cp411;
 
+assign cp62 = cp1[2] & cp1[1];
+assign cg62 = (cp1[2] & cg1[1]) | cg1[2];
+assign cg64 = (cp1[4] & cg23) | cg1[4];
+assign cp64 = cp1[4] & cp23;
+assign cg66 = (cp1[6] & cg55) | cg1[6];
+assign cp66 = cp1[6] & cp55;
 assign cg68 = (cp1[8] & cg37) | cg1[8];
 assign cp68 = cp1[8] & cp37;
-
 assign cg610 = (cp1[10] & cg59) | cg1[10];
 assign cp610 = cp1[10] & cp59;
-
 assign cg612 = (cp1[12] & cg411) | cg1[12];
 assign cp612 = cp1[12] & cp411;
-
 assign cg614 = (cp1[14] & cg513) | cg1[14];
 assign cp614 = cp1[14] & cp513;
 
