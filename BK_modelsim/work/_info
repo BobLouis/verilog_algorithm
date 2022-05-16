@@ -1,0 +1,45 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\bob90\verilog\computer_organization\HW\HW5\F740XXXXX\F740XXXXX\src
+vBK_adder
+Z1 I>R2X<@1Fd^kJ0=`I8=a`o0
+Z2 VIJ]HcgUe`<e0_e:hDBUzj0
+Z3 dC:\Users\bob90\verilog\verilog_algorithm\BK_modelsim
+Z4 w1652694108
+Z5 8BK_adder.v
+Z6 FBK_adder.v
+L0 1
+Z7 OV;L;10.1d;51
+r1
+31
+Z8 !s90 -reportprogress|300|BK_adder.v|
+o-O0
+Z9 n@b@k_adder
+!i10b 1
+Z10 !s100 dP<nlO05m<V6SM[TH:SF;1
+!s85 0
+Z11 !s108 1652694137.013000
+Z12 !s107 BK_adder.v|
+!s101 -O0
+vBK_adder_t
+!i10b 1
+!s100 zJFS3KYO:;72_1QRNeojV3
+I0cPg;N02^U`bgG;U7]0=a3
+Z13 VBNYW^Ybe6nLIQ7Q0VUJQ<3
+R3
+w1652694161
+Z14 8BK_adder_t.v
+Z15 FBK_adder_t.v
+L0 6
+R7
+r1
+!s85 0
+31
+!s108 1652694172.129000
+!s107 BK_adder_t.v|
+Z16 !s90 -reportprogress|300|BK_adder_t.v|
+!s101 -O0
+o-O0
+Z17 n@b@k_adder_t
